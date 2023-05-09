@@ -10,7 +10,7 @@ interface SearchProps {
 
 export const Search = ({ hasError, onSumbit }: SearchProps) => {
   const searchRef = useRef<HTMLFormElement | null>(null);
-  const handleSumbit = (event: React.FormEvent) => {};
+  const handleSumbit = (event: React.FormEvent) => {}; // add later
 
   return (
     <form onSubmit={handleSumbit} ref={searchRef}>
